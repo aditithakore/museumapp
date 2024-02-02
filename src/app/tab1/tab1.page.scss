@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5;
+    font-size: xx-large;
+    color: azure;
+}
+
+.welcome {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+img.pfp {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 10rem !important;
+    max-height: 10rem !important;
+}
+
+ion-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ion-label {
+    font-size: larger !important;
+}

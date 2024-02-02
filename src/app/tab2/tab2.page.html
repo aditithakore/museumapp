@@ -1,17 +1,92 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+    <ion-grid>
+        <ion-row class="ion-align-items-center">
+            <ion-col size="6">
+                <p class="welcome"> Welcome to Kids Section! </p>
+            </ion-col>
+            <img src="./assets/img20.png" class="pfp" size="small" />
+        </ion-row>
+    </ion-grid>
+    <ion-row>
+        <ion-col size="9">
+            <ion-searchbar></ion-searchbar>
+        </ion-col>
+        <ion-list style="vertical-align: middle;">
+            <ion-item>
+                <ion-select aria-label="Language" interface="popover" value="en">
+                    <ion-select-option value="en">en</ion-select-option>
+                    <ion-select-option value="hi">hi</ion-select-option>
+                    <ion-select-option value="de">de</ion-select-option>
+                </ion-select>
+            </ion-item>
+        </ion-list>
+    </ion-row>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6" (click)="onCardClick('Interactive Art stations')">
+                <ion-card>
+                    <ion-card-title>Interactive Art stations</ion-card-title>
+                    <img src="./assets/img21.png">
+                    <ion-card-content>Color Mixing Wall & Texture Boards</ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-title>
+                        Famous Artists Reproductions
+                    </ion-card-title>
+                    <img src="./assets/img22.png">
+                    <ion-card-content>Miniature Art Gallery & Artist's Studio Corner</ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-title>
+                        Art Through the Ages
+                    </ion-card-title>
+                    <img src="./assets/img23.png">
+                    <ion-card-content>Timeline Mural & Interactive Time Machine</ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-title>
+                        Artistic Games and Puzzles
+                    </ion-card-title>
+                    <img src="./assets/img24.png">
+                    <ion-card-content>Art Detective Game & Art Puzzle Wall</ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-title>
+                        Sensory Art Experience
+                    </ion-card-title>
+                    <img src="./assets/img25.png">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+                    <ion-card-content>Scented Paintings & Tactile Art </ion-card-content>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card>
+                    <ion-card-title>
+                        Mirror and Perspective Play
+                    </ion-card-title>
+                    <img src="./assets/img26.png">
+
+                    <ion-card-content>Infinity Mirrors & Mirror Maze exprience</ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+
+    </ion-grid>
+
+
+
 </ion-content>
